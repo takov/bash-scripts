@@ -25,3 +25,10 @@ awk -F : '{print $1}' /etc/passwd
 awk -F : '/takov/{print $1}' /etc/passwd 
 # Print the first and the last field 
 awk -F : '/takov/{print $1 $NF}' /etc/passwd
+
+
+#---network---
+# Show the remote addresses of the connected clients. Result is sorted and only the unique IPs are shown. 
+#Remove "state ESTABLESHED" of all state need to be observed 
+netstat -nt state ESTABLESHED | awk '{ print $5 } ' |  cut -f1 -d":" | sort -u
+
