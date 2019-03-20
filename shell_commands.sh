@@ -32,3 +32,6 @@ awk -F : '/takov/{print $1 $NF}' /etc/passwd
 #Remove "state ESTABLESHED" of all state need to be observed 
 netstat -nt state ESTABLESHED | awk '{ print $5 } ' |  cut -f1 -d":" | sort -u
 
+## wireshark
+#Monitor the traffic on remote machine
+wireshark -i <(ssh takov@10.10.10.10 "tcpdump -s 0 -U -n -w - -i eth0 not port 22" ) -k
