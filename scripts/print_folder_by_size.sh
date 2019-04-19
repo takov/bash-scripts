@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #Initialize some variables
 RED='\033[0;31m'
 GREEN='\e[32m'

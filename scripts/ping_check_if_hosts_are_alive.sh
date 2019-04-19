@@ -1,5 +1,6 @@
 #!/bin/bash
-##Usually only a limited range need to be scanned. That is why the script checks only the range after the last .
+
+#Usually only a limited range need to be scanned. That is why the script checks only the range after the last .
 #TODO enhance to take the IP as arguments
 #172.217.169.X - public IPs
 
