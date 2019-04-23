@@ -1,2 +1,4 @@
 # bash-scripts
-Usefull smal bash scripts or shell commands
+
+Useful small bash scripts and shell commands
+
