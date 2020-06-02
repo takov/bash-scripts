@@ -1,7 +1,7 @@
 # ClearLinux scripts
 
-Useful scripts and commands for ClearLinux OS - https://clearlinux.org
-Some of the scripts are taken from Internet. Some of them are modified by me
+Useful scripts and commands for ClearLinux OS - https://clearlinux.org.
+Some of the scripts are taken from Internet and modified by me.
 
 ClearLinux uses its own package manager called swupd. Since it is fairly new a lot of the packages like opera,chrome,terminator etc. are not available. 
 
