@@ -9,7 +9,7 @@
 #sudo swupd bundle-add lynx
 
 # Path to opera installation dir
-opera_home=/home/user/software
+opera_home=/home/$USER/software/opera
 # Path to custom lib dir
 lib_dir=/usr/local/
 
@@ -70,13 +70,13 @@ sudo mkdir -p $lib_dir/share/icons/hicolor/128x128/apps
 
 # Create soft links
 # This will make opera icon avaialbe in the search and in the panel
-sudo ln -s $opera_home/share/pixmaps/opera.xpm $lib_dir/share/pixmaps/
-sudo ln -s $opera_home/share/applications/opera.desktop $lib_dir/share/applications/
-sudo ln -s $opera_home/share/mime/packages/opera-stable.xml $lib_dir/share/mime/packages/
-sudo ln -s $opera_home/share/doc/packages/chromium-ffmpeg-extra/AUTHORS $lib_dir/share/doc/packages/chromium-ffmpeg-extra/
-sudo ln -s $opera_home/share/doc/packages/chromium-ffmpeg-extra/LICENSE $lib_dir/share/doc/packages/chromium-ffmpeg-extra/
-sudo ln -s $opera_home/share/icons/hicolor/256x256/apps/opera.png $lib_dir/share/icons/hicolor/256x256/apps/
-sudo ln -s $opera_home/share/icons/hicolor/16x16/apps/opera.png $lib_dir/share/icons/hicolor/16x16/apps/
-sudo ln -s $opera_home/share/icons/hicolor/32x32/apps/opera.png $lib_dir/share/icons/hicolor/32x32/apps/
-sudo ln -s $opera_home/share/icons/hicolor/48x48/apps/opera.png $lib_dir/share/icons/hicolor/48x48/apps/
-sudo ln -s $opera_home/share/icons/hicolor/128x128/apps/opera.png $lib_dir/share/icons/hicolor/128x128/apps/
+sudo ln -s $opera_home/usr/share/pixmaps/opera.xpm $lib_dir/share/pixmaps/
+sudo ln -s $opera_home/usr/share/applications/opera.desktop $lib_dir/share/applications/
+sudo ln -s $opera_home/usr/share/mime/packages/opera-stable.xml $lib_dir/share/mime/packages/
+sudo ln -s $opera_home/usr/share/doc/packages/chromium-ffmpeg-extra/AUTHORS $lib_dir/share/doc/packages/chromium-ffmpeg-extra/
+sudo ln -s $opera_home/usr/share/doc/packages/chromium-ffmpeg-extra/LICENSE $lib_dir/share/doc/packages/chromium-ffmpeg-extra/
+sudo ln -s $opera_home/usr/share/icons/hicolor/256x256/apps/opera.png $lib_dir/share/icons/hicolor/256x256/apps/
+sudo ln -s $opera_home/usr/share/icons/hicolor/16x16/apps/opera.png $lib_dir/share/icons/hicolor/16x16/apps/
+sudo ln -s $opera_home/usr/share/icons/hicolor/32x32/apps/opera.png $lib_dir/share/icons/hicolor/32x32/apps/
+sudo ln -s $opera_home/usr/share/icons/hicolor/48x48/apps/opera.png $lib_dir/share/icons/hicolor/48x48/apps/
+sudo ln -s $opera_home/usr/share/icons/hicolor/128x128/apps/opera.png $lib_dir/share/icons/hicolor/128x128/apps/
