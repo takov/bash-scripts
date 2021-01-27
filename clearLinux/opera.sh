@@ -6,7 +6,7 @@
 #https://community.clearlinux.org/t/ld-not-finding-library-installed-in-usr-local-lib/617/5
 # You should add custom path to ld
 # Also install lynx bundle
-#sudo swupd bundle-add lynx
+#sudo swupd bundle-add lynx package-utils wget
 
 # Path to opera installation dir
 opera_home=/home/$USER/software/opera
